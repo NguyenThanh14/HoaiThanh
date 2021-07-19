@@ -100,7 +100,7 @@ require_once ('../common/utility.php');
 					                <a href="add.php?id='.$item['id'].'"><button class="btn btn-warning">Sửa</button></a>
 				                </td>
 				                <td>
-					                <button class="btn btn-danger" onclick="deleteCategory('.$item['id'].')">Xoá</button>
+					                <button class="btn btn-danger" onclick="deleteCatagory('.$item['id'].')">Xoá</button>
 				                </td>
 			                   </tr>';
                     }
